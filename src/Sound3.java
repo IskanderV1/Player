@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class Sound3 {
     public static void main(String[] args) {
+        System.out.println("Press any key to choice sound");
         try {
             File soundFile = new File("src/icecream.wav");
             AudioInputStream ais = AudioSystem.getAudioInputStream(soundFile);

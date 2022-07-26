@@ -17,7 +17,6 @@ public class Main {
         if (soundScanner == 3) Sound3.main(new String [1]);
         if (soundScanner == 4) Sound4.main(new String [1]);
         if (soundScanner == 5) Sound5.main(new String [1]);
-        if (soundScanner != 0 && soundScanner != 1 && soundScanner != 2 && soundScanner != 3 && soundScanner != 4 && soundScanner != 5) return;
 
     }
 }
