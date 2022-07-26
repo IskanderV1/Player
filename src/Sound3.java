@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Sound3 {
     public static void main(String[] args) {
-        System.out.println("Press any key to choice sound");
+        System.out.println("Press Enter to choice sound");
         try {
             File soundFile = new File("src/icecream.wav");
             AudioInputStream ais = AudioSystem.getAudioInputStream(soundFile);
@@ -15,7 +15,7 @@ public class Sound3 {
             clip.start();
             Scanner choice3Scan = new Scanner(System.in);
             String choice3 = choice3Scan.nextLine();
-            if (choice3.equals("player")) {
+            if (choice3.equals("playerdsjfugjifgjdgiudgjidfjgidfgigijgudgdfu")) {
                 clip.stop();
                 clip.close();
                 Main.main(new String[1]);
@@ -23,6 +23,7 @@ public class Sound3 {
                 clip.stop();
                 clip.close();
                 Main.main(new String[1]);
+                return;
             }
             Thread.sleep(clip.getMicrosecondLength()/1000);
             clip.stop();

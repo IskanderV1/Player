@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Sound2 {
     public static void main(String[] args) {
-        System.out.println("Press any key to choice sound");
+        System.out.println("Press Enter to choice sound");
         try {
             File soundFile = new File("src/saynomo.wav");
             AudioInputStream ais = AudioSystem.getAudioInputStream(soundFile);
@@ -15,7 +15,7 @@ public class Sound2 {
             clip.start();
             Scanner choice2Scan = new Scanner(System.in);
             String choice2 = choice2Scan.nextLine();
-            if (choice2.equals("player")) {
+            if (choice2.equals("ggguyggvghdafl;,sdhuifsduojfpsdigsyf8udsoisdiufudf87474756")) {
                 clip.stop();
                 clip.close();
                 Main.main(new String[1]);
@@ -23,6 +23,7 @@ public class Sound2 {
                 clip.stop();
                 clip.close();
                 Main.main(new String[1]);
+                return;
             }
             Thread.sleep(clip.getMicrosecondLength()/1000);
             clip.stop();
